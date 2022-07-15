@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #757575;
+    --background-color:#FFFFFF;
+    --hover-color: #2196F3;
+    --title-color: #2F303A;
+}
+
+
+body {
+    color: var(--primary-color);
+    background-color:var(--background-color);
+}
+
+/* цвета заголовков*/
+h2,h3,h4,h5,h6 {
+    color: var(--title-color);
+}
+/* убрать точечки*/
+ul {
+    list-style: none;
+}
+/* убрать подчеркивание*/
+a {
+    text-decoration: none;
+}
+
+/* logo*/
+.logo {
+    color:var(--title-color);
+}
+
+.logo-accent {
+    color: var(--hover-color);
+}
+/* site-nav*/
+
+.site-nav-link {
+    color:var(--title-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: var(--hover-color);
+}
+
+.site-nav-link.current {
+    color: var(--hover-color);
+} 
+
+/* contact-nav*/
+.contact-nav-link {
+    color: var(--primary-color);
+}
+
+.contact-nav-link:hover,
+.contact-nav-link:focus {
+    color: var(--hover-color);
+    
+}
+/* hero*/
+.hero {
+    background-color: var(--title-color);
+}
+
+.hero-title {
+    color: var(--background-color);
+}
+
+/* button*/
+.hero-button {
+    color: var(--background-color);
+    background-color: var(--hover-color);
+}
+
+/* seckond background*/
+.team {
+    background-color: #F5F4FA;
+}
+
+/* footer*/
+footer {
+    background-color: var(--title-color);
+}
+
+.site-nav-adres {
+    color: var(--background-color);
+
+}
+
+.site-nav-adres:hover,
+.site-nav-adres:focus {
+    color: var(--hover-color);
+}
+
+.site-nav-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+ 
+.site-nav-contact:hover,
+.site-nav-contact:focus {
+    color: var(--hover-color);
+}
