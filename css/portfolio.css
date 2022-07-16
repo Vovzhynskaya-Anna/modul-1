@@ -3,6 +3,7 @@
     --background-color: #FFFFFF;
     --hover-color: #2196F3;
     --title-color: #212121;
+    
 }
 
 body {
@@ -58,5 +59,9 @@ a {
 .contact-nav-link:hover,
 .contact-nav-link:focus {
     color: var(--hover-color);
-
+}
+/* button*/
+.page-nav-button {
+    color: var(--title-color);
+    background-color: var(--background-button-portfolio-color) ;
 }
