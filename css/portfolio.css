@@ -3,6 +3,7 @@
     --background-color: #FFFFFF;
     --hover-color: #2196F3;
     --title-color: #212121;
+    --background-button-portfolio: #F5F4FA;
     
 }
 
@@ -63,5 +64,33 @@ a {
 /* button*/
 .page-nav-button {
     color: var(--title-color);
-    background-color: var(--background-button-portfolio-color) ;
+    background-color: var(--background-button-portfolio) ;
+}
+
+.page-nav-button:hover,
+.page-nav-button:focus {
+    background-color: var(--hover-color);
+}
+
+/*footer*/
+footer {
+    background-color: var(--title-color);
+}
+
+.site-nav-adres {
+    color: var(--background-color);
+}
+
+.site-nav-adres:hover,
+.site-nav-adres:focus {
+    color: var(--hover-color);
+}
+
+.site-nav-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.site-nav-contact:hover,
+.site-nav-contact:focus {
+    color: var(--hover-color);
 }
