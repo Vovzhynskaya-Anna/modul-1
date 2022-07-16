@@ -10,8 +10,11 @@
 body {
     color: var(--primary-color);
     background-color: var(--background-color);
+
+    font-family: Roboto, Roboto;
 }
 
+/* color of title*/
 h2,
 h3,
 h4,
@@ -19,7 +22,7 @@ h5,
 h6 {
     color: var(--title-color);
 }
-
+/* убирает точки*/
 ul {
     list-style: none;
 }
@@ -28,19 +31,21 @@ ul {
 a {
     text-decoration: none;
 }
-
+/*logo*/
 .logo {
-    color: var(--title-color);
+    color: var(--hover-color);
+    font-family: Oleo Script, Raleway;
+
+    font-size: 26px;
+    line-height: 1.19px;
 }
 
 .logo-accent {
-    color: var(--hover-color);
-}
-
-/* site-nav*/
-
-.site-nav-link {
     color: var(--title-color);
+    font-family: Oleo Script, Raleway;
+
+    font-size: 26px;
+    line-height: 1.19px;
 }
 
 .site-nav-link:hover,
@@ -55,6 +60,10 @@ a {
 /* contact-nav*/
 .contact-nav-link {
     color: var(--primary-color);
+
+    Font-size: 14px;
+    Line-height: 1.14;
+    font-weight: 500;
 }
 
 .contact-nav-link:hover,
@@ -62,14 +71,23 @@ a {
     color: var(--hover-color);
 }
 /* button*/
+.page-nav {
+    color: var(--title-color);
+}
+
+button {
+    font-family: inherit;   
+}
+
 .page-nav-button {
     color: var(--title-color);
-    background-color: var(--background-button-portfolio) ;
+    background-color: var(--background-button-portfolio);
 }
 
 .page-nav-button:hover,
 .page-nav-button:focus {
     background-color: var(--hover-color);
+    color: var(--background-color);
 }
 
 /*footer*/
@@ -93,4 +111,20 @@ footer {
 .site-nav-contact:hover,
 .site-nav-contact:focus {
     color: var(--hover-color);
+}
+
+.logo-footer {
+    color: var(--hover-color);
+    font-family: Oleo Script, Raleway;
+
+    font-size: 26px;
+    line-height: 1.19px;
+}
+
+.logo-accent-footer {
+    color: var(--background-color);
+    font-family: Oleo Script, Raleway;
+
+    font-size: 26px;
+    line-height: 1.19px;
 }

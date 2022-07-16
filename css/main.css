@@ -9,7 +9,11 @@
 body {
     color: var(--primary-color);
     background-color:var(--background-color);
+
+    font-family: Roboto,  Roboto;
+    
 }
+
 
 /* цвета заголовков*/
 h2,h3,h4,h5,h6 {
@@ -26,16 +30,28 @@ a {
 
 /* logo*/
 .logo {
-    color:var(--title-color);
+    color:var(--hover-color);
+    font-family:Oleo Script, Raleway;
+    
+    font-size: 26px;
+    line-height: 1.19px;
 }
 
 .logo-accent {
-    color: var(--hover-color);
+    color: var(--title-color);
+    font-family: Oleo Script, Raleway;
+
+    font-size: 26px;
+    line-height: 1.19px;
 }
 /* site-nav*/
 
 .site-nav-link {
     color:var(--title-color);
+
+    Font-size: 14px;
+    Line-height: 1.14;
+    font-weight: 500;
 }
 
 .site-nav-link:hover,
@@ -50,6 +66,11 @@ a {
 /* contact-nav*/
 .contact-nav-link {
     color: var(--primary-color);
+
+    Font-size: 14px;
+    Line-height: 1.14;
+    font-weight: 500;
+
 }
 
 .contact-nav-link:hover,
@@ -64,27 +85,60 @@ a {
 
 .hero-title {
     color: var(--background-color);
+
+    Font-size: 44px;
+    Line-height: 1.36;
+    font-weight: 900;
+    text-align: center;
 }
 
 /* button*/
 .hero-button {
     color: var(--background-color);
     background-color: var(--hover-color);
+
+    Font-size: 16px;
+    Line-height: 1.87;
+    font-weight: 700;
+    
+}
+
+/*class=work*/
+.work-title {
+    Font-size: 36px;
+    Line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* seckond background*/
 .team {
-    background-color: #F5F4FA;
+background-color: #F5F4FA;
+Font-size: 16px;
+Line-height: 1.17;
+font-weight: 500;
+}
+
+.team-title {
+Font-size: 36px;
+Line-height: 1.16;
+font-weight: 700;
+text-align: center;
 }
 
 /* footer*/
 footer {
     background-color: var(--title-color);
+    width: 1600px;
+    height: 252px;
 }
 
 .site-nav-adres {
     color: var(--background-color);
 
+Font-size: 14;
+Line-height: 1.71;
+font-weight: 400;
 }
 
 .site-nav-adres:hover,
@@ -94,9 +148,29 @@ footer {
 
 .site-nav-contact {
     color: rgba(255, 255, 255, 0.6);
+
+    Font-size: 14;
+        Line-height: 1.71;
+        font-weight: 400;
 }
  
 .site-nav-contact:hover,
 .site-nav-contact:focus {
     color: var(--hover-color);
+}
+
+.logo-footer {
+    color: var(--hover-color);
+        font-family: Oleo Script, Raleway;
+    
+        font-size: 26px;
+        line-height: 1.19px;
+}
+
+.logo-accent-footer {
+    color: var(--background-color);
+        font-family: Oleo Script, Raleway;
+    
+        font-size: 26px;
+        line-height: 1.19px;
 }
