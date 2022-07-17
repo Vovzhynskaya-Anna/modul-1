@@ -78,6 +78,9 @@ a {
 button {
     font-family: inherit;   
 }
+.page-nav-button {
+    border: #F5F4FA;
+}
 
 .page-nav-button {
     color: var(--title-color);
