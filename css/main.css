@@ -28,6 +28,13 @@ a {
     text-decoration: none;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+
 /* logo*/
 .logo {
     color:var(--hover-color);
@@ -63,6 +70,12 @@ a {
     color: var(--hover-color);
 } 
 
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 /* contact-nav*/
 .contact-nav-link {
     color: var(--primary-color);
@@ -78,33 +91,76 @@ a {
     color: var(--hover-color);
     
 }
+
+
 /* hero*/
 .hero {
     background-color: var(--title-color);
+
+    height: 600px;
+        width: 1300px;
+        left: 0px;
+        top: 80px;
+        border-radius: [object Object]px;
 }
 
 .hero-title {
-    color: var(--background-color);
+    margin-top: 0;
+    margin-bottom: 30;
 
+    color: var(--background-color);
     Font-size: 44px;
     Line-height: 1.36;
     font-weight: 900;
     text-align: center;
+    
+    outline: tomato;
 }
+
 
 /* button*/
 .hero-button {
+    
+    display: block ;
+    border-radius: 4px;
+    padding: 10 32;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 50px;
+    min-width: 200px;
+    
     color: var(--background-color);
     background-color: var(--hover-color);
+    border-color: transparent;
 
-    Font-size: 16px;
-    Line-height: 1.87;
-    font-weight: 700;
-    
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        text-align: center;
+}
+
+.section-benefits {
+    margin-top: 94px;
+    color: var(--title-color);
+
+    outline: tomato;
+}
+
+.section-benefits h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    outline: tomato;
 }
 
 /*class=work*/
 .work-title {
+    
     Font-size: 36px;
     Line-height: 1.16;
     font-weight: 700;
@@ -125,6 +181,21 @@ Line-height: 1.16;
 font-weight: 700;
 text-align: center;
 }
+
+.section-team h2 {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.section-team {
+    padding-top: 94px;
+    color: var(--title-color);
+    background-color:  #F5F4FA;;
+
+    outline: tomato;
+}
+
+
 
 /* footer*/
 footer {

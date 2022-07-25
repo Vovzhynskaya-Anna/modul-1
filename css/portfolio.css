@@ -76,7 +76,8 @@ a {
 }
 
 button {
-    font-family: inherit;   
+    font-family: inherit; 
+    border: 1px solid transparent;
 }
 .page-nav-button {
     border: #F5F4FA;
